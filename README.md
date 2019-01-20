@@ -19,7 +19,7 @@ console.log(i); //i is visible here too. thus is logged as 10.
 let variables cannot be re-declared while var variable can be re-declared in the same scope.
 
 Assume we are using strict mode
-
+```
 'use strict';
 var temp = "this is a temp variable";
 var temp = "this is a second temp variable"; //replaced easily
@@ -28,3 +28,4 @@ We cannot do the same thing with let-
 'use strict';
 let temp = "this is a temp variable";
 let temp = "this is a second temp variable" //SyntaxError: temp is already declared
+```
