@@ -1,4 +1,4 @@
-# Javascript
+# Javascript/ ES6
 
 ## Let VS Var
 - var have functional scope and let have block scope.
@@ -29,3 +29,9 @@ We cannot do the same thing with let-
 let temp = "this is a temp variable";
 let temp = "this is a second temp variable" //SyntaxError: temp is already declared
 ```
+## Const
+- The value cannot change once defined.
+- But if we declared object as const we can modify the value of it and also add another property to object.
+- but we cannot recreate the object again.
+- const nad let both use block scope.
+
