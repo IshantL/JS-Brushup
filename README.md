@@ -1,4 +1,7 @@
 # Javascript/ ES6
+## Basic JS
+- JS is a lightweight, interpreted, object oriented and first class function scripting language.
+- written for runtime envioronment like shell, we can bundle it and make script interpretes & executes.
 
 ## Let VS Var
 - var have functional scope and let have block scope.
