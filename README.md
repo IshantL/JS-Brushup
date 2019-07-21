@@ -3,6 +3,11 @@
 - JS is a lightweight, interpreted, object oriented and first class function scripting language.
 - written for runtime envioronment like shell, we can bundle it and make script interpretes & executes.
 
+## Interal JS
+- Syntax Parsers: A programs that reads your code abd determine what it does if its grammer is valid.
+- Lexical environment: A lexical environment exists in programming languagaes where you write something is important.
+- Execution context : A wrapper to help manage the code that is running. there are lot of lexcal environment, which one is currently running is managed by execution context.
+
 ## Let VS Var
 - var have functional scope and let have block scope.
 - if anything declare before let, we will get not defined error not like in var where hoisting is there and we get undefined as output.
