@@ -8,6 +8,9 @@
 - Lexical environment: A lexical environment exists in programming languagaes where you write something is important.
 - Execution context : A wrapper to help manage the code that is running. there are lot of lexcal environment, which one is currently running is managed by execution context.
 
+## JS Engine
+- when JS engine starts it have 2 phases one is creation phase and one is execution phase.
+- In creation phase, it wil create memory space for variables and functions, if the value is not assign to any varable it will save "undefined to it". This behavior is nothing but the Hoisting (Move the declaration to the top as per the defination).
 ## Let VS Var
 - var have functional scope and let have block scope.
 - if anything declare before let, we will get not defined error not like in var where hoisting is there and we get undefined as output.
